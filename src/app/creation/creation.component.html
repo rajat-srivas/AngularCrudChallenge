@@ -1,0 +1,18 @@
+<section>
+  <div class="form">
+    <h4>{{title}}</h4>
+    <form #userForm = "ngForm" (ngSubmit) = "OnSubmit(userForm)"  >
+      <input ngModel name="fullName" [disabled] = "controlDisabled" [(ngModel)]="modalUser.fullName" type="text" placeholder="Name">
+      <input  name =  "email" [disabled] = "controlDisabled" type="email" [(ngModel)]="modalUser.email" placeholder="Email">
+      <div class="radio flex">
+        <input type="radio" id="admin"  checked [(ngModel)]="modalUser.roleType" name="role" value="Admin">
+        <span>Admin</span>
+        <input type="radio" id="cs" [(ngModel)]="modalUser.roleType" name="role" value="Customer Executive">
+        <span>Customer Executive</span>
+      </div>
+      <input type="text" name="mobile" [(ngModel)]="modalUser.mobileNumber" placeholder="Mobile Number (Optional)">
+      <button type="submit">{{title}}</button>
+    </form>
+
+  </div>
+</section>

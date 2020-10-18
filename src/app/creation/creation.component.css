@@ -1,0 +1,52 @@
+section{
+  padding: 2rem;
+  background: white;
+  width: 380px;
+}
+
+
+
+h4{
+  text-align: left;
+}
+
+.form {
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+Form > input {
+  border: 2px solid #f6f6f6;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 1rem;
+  display: block;
+  width: 300px;
+  height: 45px;
+}
+
+.radio {
+  width: 300px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+.radio input:checked {
+  background-color: #ff9642;
+
+}
+
+#cs {
+margin-left: 30px;
+}
+
+button {
+  background-color: #ff9642;
+width: 300px;
+height: 40px;
+color: white;
+border: none;
+cursor: pointer;
+}

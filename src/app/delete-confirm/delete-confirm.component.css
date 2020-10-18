@@ -1,0 +1,31 @@
+section {
+  height: auto;
+  width: auto;
+  padding: 1rem;
+  align-items: center;
+}
+
+
+.confirmBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+button {
+  margin-top: 2rem;
+  cursor: pointer;
+  padding: .8rem 1.6rem;
+  color: black;
+  margin-left: 1rem;
+}
+
+.yes {
+  background-color: #ff9642;
+  outline: none;
+
+}
+
+.no {
+  border: 1px solid #ff9642;
+  outline: none;;
+  background-color: white;
+}

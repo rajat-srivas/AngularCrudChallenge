@@ -1,0 +1,44 @@
+.header {
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.header__right_input {
+  border: 2px solid #f6f6f6;
+  align-items: center;
+}
+
+.header__right_input svg {
+  padding-right: 10px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.header__right_input input {
+  padding: 8px;
+  width: 300px;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  vertical-align: middle;
+}
+
+
+.header__right__button {
+
+background-color: #ff9642;
+padding: 10px 10px;
+color: white;
+vertical-align: middle;
+margin-left: 10px;
+}
+
+a {
+  cursor: pointer;
+}
+
+
+.header__right__button span {
+  font-size: 14px;
+  color: white;
+}
